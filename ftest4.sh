@@ -8,4 +8,4 @@ then
 greatest=$i
 fi
 done
-echo "The biggest number is $greatest"
+echo "The biggest number will print from this script is $greatest"
