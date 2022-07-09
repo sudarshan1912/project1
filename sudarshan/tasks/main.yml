@@ -1,0 +1,10 @@
+---
+# tasks file for sudarshan
+- name: copying_file
+  copy:
+    src: f1.txt
+    dest: /home/ubuntu
+- name: copying_template
+  template:
+    src: templates/f2.j2
+    dest: /home/ubuntu
